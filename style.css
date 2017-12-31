@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.wrap{
+    width:980px;
+    height: 1000px;
+    background-color: #2bd4d9;
+    margin: 0 auto;
+    border-radius: 10%;
+}
+header{
+  padding-top: 40px;
+}
+.caption{
+  width: 300px;
+  height: 100px;
+  background-color: #608e7f;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.caption h1{
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+}
+.nav{
+  height: 110px;
+  background-color:rgb(40, 158, 190) ;
+  margin-top: 30px;
+}
+.nav__list{
+  display: block;
+  list-style:none ;
+  height: auto;
+  text-align: center;
+  font-size: 0;
+}
+
+.nav__item{
+  padding: 15px;
+  margin: 0 20px;
+  font-size: 25px; /* возвращаем размер шрифта */
+  width: 200px;
+  background-color: white;
+    display: inline-block;
+    margin-top: 25px;
+}
+.nav__item:hover{
+  background-color:rgba(224, 65, 227, 0.25) ;
+}
