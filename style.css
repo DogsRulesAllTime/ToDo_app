@@ -1,18 +1,21 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-.wrap{
-    width:980px;
-    height: 1000px;
-    background-color: #2bd4d9;
-    margin: 0 auto;
-    border-radius: 10%;
+
+.wrap {
+  width: 980px;
+  height: 1000px;
+  background-color: #2bd4d9;
+  margin: 0 auto;
+  border-radius: 10%;
 }
-header{
+
+header {
   padding-top: 40px;
 }
-.caption{
+
+.caption {
   width: 300px;
   height: 100px;
   background-color: #608e7f;
@@ -20,33 +23,108 @@ header{
   border-radius: 15px;
 }
 
-.caption h1{
+.caption h1 {
   text-align: center;
   padding-top: 30px;
   color: white;
 }
-.nav{
+
+.nav {
   height: 110px;
-  background-color:rgb(40, 158, 190) ;
+  background-color: rgb(40, 158, 190);
   margin-top: 30px;
 }
-.nav__list{
+
+.nav__list {
   display: block;
-  list-style:none ;
+  list-style: none;
   height: auto;
   text-align: center;
   font-size: 0;
 }
 
-.nav__item{
+.nav__item {
   padding: 15px;
   margin: 0 20px;
-  font-size: 25px; /* возвращаем размер шрифта */
+  font-size: 25px;
+  /* возвращаем размер шрифта */
   width: 200px;
   background-color: white;
-    display: inline-block;
-    margin-top: 25px;
+  display: inline-block;
+  margin-top: 25px;
 }
-.nav__item:hover{
-  background-color:rgba(224, 65, 227, 0.25) ;
+
+.nav__item:hover {
+  background-color: rgba(224, 65, 227, 0.25);
+}
+.MainFrame{
+  position: relative;
+  background-color: white;
+  height: 600px;
+  width: 800px;
+  margin:0 auto;
+  margin-top: 25px;
+}
+.sect__todo{
+  position: absolute;
+  background-color:rgb(126, 149, 87);
+  height: 100%;
+  width: 350px;
+}
+.sect__todo__left{
+  left: 0px;
+}
+.sect__todo__right{
+  right: 0px;
+}
+.todo__logo{
+position: absolute;
+width: 250px;
+height: 70px;
+background-color: rgb(39, 58, 139);
+top: 15px;
+left: 50px;
+text-align: center;
+font-size: 40px;
+line-height: 70px;
+}
+
+.todo_block{
+  position: absolute;
+  width: 300px;
+  height: 500px;
+  background-color: rgb(251, 251, 251);
+  top: 100px;
+  left: 25px;
+}
+
+.todo_points ol{
+  padding-left: 20px;
+  width: 300px;
+  height: 400px;
+  overflow-y:auto;
+}
+.todo_points li{
+  padding-bottom:20px;
+}
+.todo_points li a{
+  /* display: block; */
+
+}
+.todo_points li input[type=checkbox]{
+float: right;
+  margin-right: 15px;
+  transform: scale(1);
+  overflow-y:auto;
+}
+.todo_add__btn{
+position: absolute;
+bottom: 0px;
+left: 75px;
+  width: 200px;
+  height: 60px;
+  background-color: rgb(242, 182, 236);
+}
+.todo_add__btn:hover{
+  background-color:rgb(85, 36, 50) ;
 }
